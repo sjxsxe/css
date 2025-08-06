@@ -1,1 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b9ffff;
+    
+}
+/* INDEX.PHP */
+.container{
+    width: 80%;
+    margin: 80px auto;
+    padding: 20px;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color:#1465bb;
+    border-radius: 10px;
+}
 
+.configuracion{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+small{
+    text-align: center;
+}
+
+.mensaje{
+    padding: 20px;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.mensaje.exito{
+    background-color: #dff9fb;
+      color: #088d3b;
+      border-left: 5px solid #2b864e;
+}
+
+.mensaje.error{
+   background-color: #f8d7da;
+      color: #c0392b;
+      border-left: 5px solid #c0392b;
+}
+/* INDEX.PHP */
+header{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+    background-color:rgb(9,20,49); 
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+    border-radius: 50%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.5);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.322);
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 95%;
+    margin-top: 190px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);  
+    margin-bottom: 20px;
+    margin-left: 30px;  
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contenedor{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section{
+    border-radius: 10px;
+    background-color: rgba(23, 18, 39, 0.596);
+    padding: 10px;
+}
+aside{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgba(23, 18, 39, 0.596);
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+}
+select{
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    background-color: #2b864e;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer{ 
+    text-align: center;
+    background-color: rgb(9,20,49);
+    color: white;
+    padding: 15px;
+}
+
+/* mostrar.php */
+.mostrar{
+    margin: 20px auto;
+    border-collapse: collapse;
+
+}
+
+.mostrar td{
+    height: 70px;
+}
+.hola{
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    margin: auto 40px;
+}
+.form-class{
+    border-radius: 15px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    box-shadow: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px;
+}
